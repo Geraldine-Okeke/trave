@@ -127,7 +127,7 @@ const Left = () => {
               </div>
               <p className="text-sm">Get a discount for every</p>
               <p className="text-sm">learn More </p>
-              <img className="w-4 h-5 ml-4" src={arrow} alt="arrow" />
+              <img className="w-4 h-5 ml-4" src={arrow} alt="arrow"/>
           </div>
           <Link
             to="#"
