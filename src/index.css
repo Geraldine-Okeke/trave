@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+  background: url('../src/Components/LEFT/images/travigo-bg.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.circle-marker {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+.fc-toolbar-title {
+  font-size: 5px /* Example font size */
+}
+
+.fc-toolbar-chunk .fc-prev-button,
+.fc-toolbar-chunk .fc-next-button {
+  font-size: 1rem; /* Example font size */
+}
