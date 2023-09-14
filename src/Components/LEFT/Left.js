@@ -58,7 +58,7 @@ const Left = () => {
 
       {isOpen || isSmallScreen ? (
         <div className={sidebarClasses}>
-          <nav className="mt-8" style={{ overflowY: 'auto', maxHeight: 'calc(100vh - 64px)' }}>
+          <nav className="mt-8 pb-5" style={{ overflowY: 'auto', maxHeight: 'calc(100vh - 64px)' }}>
           <div className="flex flex-row items-center">
               <h1 className="text-2xl font-bold text-black px-2">Travigo</h1>
               <img className="w-5 h-5 ml-2" src={NavIcon} alt="navicon" />
