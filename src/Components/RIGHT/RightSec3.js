@@ -29,7 +29,7 @@ export default function RightSec3() {
                 <img className="h-5 w-5" src={date} alt="date" />
                 <span className="ml-2">{place.dateR}</span>
               </div>
-              <div className='flex flex-row '>
+              <div className='flex flex-row mx-auto  '>
                 <img className='h-6 w-6 ' src={like} alt="emoji"/>
                 <img className='h-6 w-6' src={love} alt="emoji"/>
                 <img className='h-6 w-6' src={hate} alt="emoji"/>

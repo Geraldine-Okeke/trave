@@ -9,7 +9,7 @@ export default function Home() {
       <div className="lg:col-span-1 md:col-span-1 ">
         <Left />
       </div>
-      <div className="lg:col-span-2 md:col-span-1 mr-10 ml-0 flex">
+      <div className="lg:col-span-2 md:col-span-1 mr-auto ml-0 flex">
         <Middle />
       </div>
       <div className="lg:col-span-1 md:col-span-1 ">
